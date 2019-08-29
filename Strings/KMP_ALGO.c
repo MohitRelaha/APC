@@ -93,5 +93,5 @@ int main()
 	char* s = strstr1(str,substr);
 	
 	printf("%s",s);
-	
+		
 }
