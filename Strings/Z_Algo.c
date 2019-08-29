@@ -75,6 +75,5 @@ int main()
 		if(z[i] == l)
 			printf("%d  ",i - l - 1);
 	}
-	
-	
+		
 }
