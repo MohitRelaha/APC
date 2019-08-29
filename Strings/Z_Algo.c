@@ -15,7 +15,7 @@ int* zTable(char* str)
 		{
 			l = r = i ;
 			
-			while(str[i] != '\0' && (str[r] == str[r-l]))
+			while(str[r] != '\0' && (str[r] == str[r-l]))
 			{
 				r++;	
 			}
@@ -33,7 +33,7 @@ int* zTable(char* str)
 			{
 				l = i;
 				
-				while(str[i] != '\0' && (str[r] == str[r-l]))
+				while(str[r] != '\0' && (str[r] == str[r-l]))
 				{
 					r++;	
 				}
